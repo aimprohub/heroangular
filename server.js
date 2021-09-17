@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('./dist/MILKBANK_UI_CPY'));
 
 app.get('/*',(req, res) =>
-   res.sendFile('index.html', {root: 'dist/angular-heroku/'}),
+   res.sendFile('index.html', {root: 'dist/myproject/'}),
 );
 
 //start the app by listening on default heroku port
